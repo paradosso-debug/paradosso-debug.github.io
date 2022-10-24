@@ -16,10 +16,11 @@ body {
     background-color: black;
     color: white;
 
+
 }
 
 .brand-title {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     margin: .9rem;
     font-family: Georgia, serif;
     color: brown;
@@ -108,4 +109,31 @@ body {
     .navbar-links.active {
         display: flex;
     }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: small;
+    padding-top: 1px;
+
+
+}
+
+.discreption h2 {
+    display: flex;
+    justify-self: flex-start;
+    margin-top: 25px;
+}
+
+.discreption p {
+    display: inline-flex;
+}
+
+.wine-image {
+    width: 100%;
+
 }
