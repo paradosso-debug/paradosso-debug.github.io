@@ -120,20 +120,34 @@ body {
     font-size: small;
     padding-top: 1px;
 
+}
+
+.discreption {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 1rem;
+    width: 100%;
 
 }
 
-.discreption h2 {
-    display: flex;
-    justify-self: flex-start;
-    margin-top: 25px;
-}
-
-.discreption p {
-    display: inline-flex;
-}
 
 .wine-image {
     width: 100%;
 
+}
+
+
+.email-box {
+    border-radius: 1rem;
+    text-align: center;
+    width: 50%;
+}
+
+
+@media (max-width:400px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
