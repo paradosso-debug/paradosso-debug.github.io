@@ -1,2 +1,2 @@
 # paradosso-debug.github.io
-Pagina de web de Vino Mexicano-Japones
+Pagina de web de Vinos del mundo.
