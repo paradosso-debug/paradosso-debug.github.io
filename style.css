@@ -126,8 +126,9 @@ body {
 .discreption {
     text-align: center;
     color: whitesmoke;
-    padding-top: 30px;
-    padding-bottom: 1rem;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 4rem;
     width: 100%;
 
 }
@@ -136,6 +137,7 @@ body {
 .wine-image {
     width: 100%;
 
+
 }
 
 
@@ -143,6 +145,7 @@ body {
     border-radius: 1rem;
     text-align: center;
     width: 50%;
+
 }
 
 .button {
@@ -152,6 +155,7 @@ body {
     color: white;
     margin: 10px;
     padding: 6px;
+    cursor: pointer;
 }
 
 
@@ -202,6 +206,7 @@ body {
     margin-left: 10px;
     flex-wrap: wrap;
     background-color: rgb(249, 250, 251);
+    padding-bottom: 18px;
 
 
 }
@@ -264,4 +269,69 @@ body {
 
 .card-3 {
     background-image: url("https://images.unsplash.com/photo-1588867832678-708d88fda0bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHdpbmUlMjBib3R0bGUlMjByb3NlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: small;
+    padding-top: 1px;
+
+}
+
+.discreption2 {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 80px;
+    padding-bottom: 1rem;
+    margin: 20px;
+    width: 40%;
+
+}
+
+.discreption2 h2 {
+    margin-top: 1px;
+}
+
+
+.wine-image2 {
+    width: 150%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+a.contact-us-button {
+    background-color: rgba(255, 0, 0, 0.303);
+    color: white;
+    font-size: medium;
+    font-family: inherit;
+    border: 2px solid black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+@media (max-width:400px) {
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .discreption2 {
+        font-size: x-small;
+        margin: 50px;
+        padding: 1px;
+
+    }
+
+
 }
