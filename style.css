@@ -73,6 +73,7 @@ body {
 
 }
 
+
 @media (max-width: 400px) {
     .toggle-button {
         display: flex;
@@ -118,7 +119,7 @@ body {
     color: white;
     font-family: Georgia, serif;
     font-size: small;
-    padding-top: 1px;
+    padding-top: 30px;
 
 }
 
@@ -144,10 +145,123 @@ body {
     width: 50%;
 }
 
+.button {
+    border-radius: .5rem;
+    font-size: small;
+    background-color: rgba(255, 0, 0, 0.303);
+    color: white;
+    margin: 10px;
+    padding: 6px;
+}
+
+
 
 @media (max-width:400px) {
     .container {
         flex-direction: column;
         align-items: flex-start;
     }
+}
+
+.wine-blog {
+    background-color: white;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.wine-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-arrivals {
+    color: rgb(165, 160, 160);
+}
+
+.wine-saying {
+    color: rgb(136, 72, 72);
+    margin-top: 1px;
+}
+
+.premium-wine {
+    color: rgb(165, 160, 160);
+    margin-top: 1px;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(249, 250, 251);
+
+
+}
+
+.card {
+    background: white;
+    width: 260px;
+    height: 540px;
+    margin: 15px;
+    font-size: small;
+    box-shadow: -1px 0 10px black;
+    border-radius: 10px;
+
+}
+
+.card-container :hover {
+    background-color: lightgray;
+    transform: scale(1.02);
+    transition: all .5s ease;
+}
+
+.card :hover {
+    background-color: lightgray;
+    color: brown;
+
+}
+
+.card-image {
+    height: 350px;
+    margin-bottom: 1px;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.card h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.card h4 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-1 {
+    background-image: url("https://images.unsplash.com/photo-1599113654858-e437e8f87fef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzYyfHx3aW5lJTIwYm90dGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+}
+
+.card-2 {
+    background-image: url("https://images.unsplash.com/photo-1568446129858-a1fe87f33d04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdpbmUlMjBib3R0bGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60ne-2.jpg")
+}
+
+.card-3 {
+    background-image: url("https://images.unsplash.com/photo-1588867832678-708d88fda0bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHdpbmUlMjBib3R0bGUlMjByb3NlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
 }
