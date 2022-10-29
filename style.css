@@ -20,10 +20,11 @@ body {
 }
 
 .brand-title {
-    font-size: 1.7rem;
+    font-size: 2.0rem;
     margin: .9rem;
     font-family: Georgia, serif;
     color: brown;
+    margin-left: 30px;
 
 }
 
@@ -74,7 +75,7 @@ body {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .toggle-button {
         display: flex;
         transition: .2 ease-out;
@@ -160,7 +161,7 @@ body {
 
 
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     .container {
         flex-direction: column;
         align-items: flex-start;
@@ -168,7 +169,7 @@ body {
 }
 
 .wine-blog {
-    background-color: white;
+    background-color: rgb(249, 250, 251);
     padding-top: 1rem;
     display: flex;
     justify-content: center;
@@ -279,16 +280,23 @@ body {
     font-family: Georgia, serif;
     font-size: small;
     padding-top: 1px;
+    flex-wrap: wrap;
+
 
 }
+
+
 
 .discreption2 {
     text-align: center;
     color: whitesmoke;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 1rem;
     margin: 20px;
     width: 40%;
+    object-fit: cover;
+
+
 
 }
 
@@ -318,7 +326,7 @@ a.contact-us-button {
 }
 
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     .container2 {
         flex-direction: column;
         align-items: center;
@@ -332,6 +340,189 @@ a.contact-us-button {
         padding: 1px;
 
     }
+
+
+}
+
+.footer {
+    background-color: rgb(249, 250, 251);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.site-map {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.icons {
+    margin: 10px;
+    font-size: large;
+}
+
+.instagram {
+    color: darkgray;
+    text-decoration: none;
+    margin: 0px 2px;
+
+}
+
+.instagram :hover {
+    color: rgb(74, 0, 0);
+}
+
+.twitter {
+    color: darkgray;
+    text-decoration: none;
+    margin: 0px 2px;
+
+}
+
+.twitter :hover {
+    color: lightblue
+}
+
+.whatsapp {
+    color: darkgray;
+    text-decoration: none;
+    margin: 0px 2px;
+
+}
+
+.whatsapp:hover {
+    color: forestgreen
+}
+
+.facebook {
+    color: darkgray;
+    text-decoration: none;
+    margin: 0px 2px;
+
+}
+
+.facebook:hover {
+    color: royalblue
+}
+
+
+.company h4 {
+    display: flex;
+    justify-content: center;
+    color: rgb(164, 170, 182);
+
+}
+
+
+.get-help h4 {
+    display: flex;
+    justify-content: center;
+    color: rgb(164, 170, 182);
+
+}
+
+
+.wine h4 {
+    display: flex;
+    justify-content: center;
+    color: rgb(164, 170, 182);
+
+}
+
+.company li a {
+    text-decoration: none;
+    font-size: small;
+    color: rgb(182, 182, 180);
+}
+
+.company li {
+    list-style: none;
+}
+
+.company li :hover {
+    color: brown;
+}
+
+.company ul a {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+
+.get-help li a {
+    text-decoration: none;
+    font-size: small;
+    color: rgb(182, 182, 180);
+}
+
+.get-help li {
+    list-style: none;
+}
+
+.get-help li :hover {
+    color: brown;
+}
+
+.get-help ul a {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.wine li a {
+    text-decoration: none;
+    font-size: small;
+    color: rgb(182, 182, 180);
+}
+
+.wine li {
+    list-style: none;
+}
+
+.wine li :hover {
+    color: brown;
+}
+
+.wine ul a {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.copyright {
+    margin-top: 150px;
+    color: gray;
+    font-size: small;
+
+}
+
+@media (max-width:450px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .site-map {
+        font-size: small;
+        margin: 50px;
+        padding: 1px;
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .icons {
+        font-size: medium;
+        margin-top: 30px;
+
+    }
+
+
 
 
 }
